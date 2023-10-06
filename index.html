@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+<body>
+    <main class="App" data-color-scheme="light" id="calApp">
+        <div class="calc_wrapper">
+            <section>
+                <label for="display" id="preDisplay" class="display preDisplay"></label>
+                <input 
+                type="text" 
+                name="display"
+                id="display"
+                class="display"
+                disabled
+                />
+            </section>
+            <section class="calc_body_wrapper">
+
+                <button type="button" class="bg-gray text-black">A/C</button>
+                <button type="button" class="bg-blue">%</button>
+                <button type="button" class="bg-blue">&divide;</button>
+                <button type="button" class="bg-blue">X</button>
+
+                <button type="button" >7</button>
+                <button type="button">8</button>
+                <button type="button">9</button>
+                <button type="button" class="bg-blue">-</button>
+
+                <button type="button">4</button>
+                <button type="button">5</button>
+                <button type="button">6</button>
+                <button type="button" class="bg-blue">+</button>
+
+
+                <button type="button">3</button>
+                <button type="button">2</button>
+                <button type="button">1</button>
+                <button type="button" class="total bg-blue">=</button>
+
+                
+                <button type="button" class="zero bg-gray text-black">0</button>
+                <button type="button">.</button>
+                
+            </section>
+        </div>
+    </main>
+    
+</body>
+<script src="./script.js"></script>
+</html>
